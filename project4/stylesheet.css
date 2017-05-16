@@ -1,0 +1,171 @@
+
+
+/* centers header text */
+h1, h2,h4{
+    text-align: center;
+    font-family: 'Arvo', serif;
+
+}
+.blankCircles{
+    display: block;
+    margin: auto;
+    float: left;
+
+}
+button{
+    text-align: center;
+}
+button:hover{
+    background-color: lightgray;
+}
+
+
+.container{
+    text-align: center;
+    text-shadow: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+.Excontainer{
+    border-style: solid;
+    border-color: skyblue;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    width: 900px;
+    padding: 10px;
+    
+   
+    
+}
+
+.project{
+    text-align: left;
+}
+body{
+    font-family: 'Arvo', serif;
+    background: lightgray;
+    margin: auto;
+    display: block;
+   
+
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue;
+}
+
+
+
+.inContainer{
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.info{
+    float: right;
+}
+.resume{
+    text-align: left;
+
+}
+
+li {
+    float: left;
+    font-family: 'Arvo', serif; 
+}
+
+li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: lightskyblue;
+    color:white;
+}
+
+ #Gallery{
+    
+    margin-left: 20%;
+    margin-right:20%;
+    
+    padding: 50px;
+    background: lightskyblue;
+    border-radius:100px;
+    width:50px;
+    height: 50px;
+ 
+ 
+} 
+
+#mover{
+      cursor: pointer;
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  transition: all 1s;
+  
+}
+
+.size{
+    
+   
+    border: 10px solid lightskyblue; 
+    margin: 15%;
+    width: 50%;
+    height: 50%;
+    float: right;
+
+}
+.size-center{
+      border: 10px solid lightskyblue; 
+    margin: 10%;
+    width: 50%;
+    height: 50%;
+    float: center;
+
+}
+.fade{
+    animation:fading 10s infinite}
+
+    
+#tardisImg{
+    position: absolute;
+
+
+}
+
+
+.colour1{fill:#1C4467;}
+
+.colour2{fill:#1C4467;}
+ 
+@keyframes fading{
+    0%{opacity:0
+    }
+    50%{opacity:1}100%{opacity:0}}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width:95%;
+        
+    }
+    .Excontainer{
+        width: 95%;
+    }
+}
+
+
